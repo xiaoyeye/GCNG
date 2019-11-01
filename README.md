@@ -10,7 +10,7 @@ GCNG for extracellular gene relationship inference. (A) GCNG model using spatial
 
 ># 2, Code environment
 
->>## Users need to install the latest python and all the modules required by the code, including ‘spektral’, ‘Keras’ and ‘Tensorflow’.
+>>## Users need to install python and all the modules required by the code, including ‘spektral’, ‘Keras’ and ‘Tensorflow’. We  recommendate Anaconda.
 Author's environment is python 3.6.3 in a Linux server which is now running Centos 6.5 as the underlying OS and Rocks 6.1.1 as the cluster management revision. 
 
 ># 3, Training and test data generation 
