@@ -14,7 +14,7 @@ GCNG for extracellular gene relationship inference. (A) GCNG model using spatial
 Author's environment is python 3.6.3 in a Linux server which is now running Centos 6.5 as the underlying OS and Rocks 6.1.1 as the cluster management revision. 
 
 ># 3, Example for running
-
+users should first set the path as the downloaded folder. 
 >>## 3.1 Training and test data generation  for ligand-receptor prediction
 >>>### Usage: 
 
