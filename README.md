@@ -15,5 +15,5 @@ Author's environment is python 3.6.3 in a Linux server which is now running Cent
 
 ># 3, Training and test data generation 
 >>## 3.1 for ligand-receptor prediction
->>## 3.2 for ligand-receptor causality prediction
+>>>### Usage: python data_generation_interaction_ten_fold.py
 ># 4, Training and test model
