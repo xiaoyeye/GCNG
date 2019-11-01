@@ -4,3 +4,4 @@ using graph convolutional neural network and spaital transcriptomics data to inf
 ## date: Nov 1, 2019
 
 ># 1, GCNG
+![](https://raw.githubusercontent.com/xiaoyeye/CNNC/master/New%20Bitmap%20Image.bmp)
