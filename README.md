@@ -37,5 +37,6 @@ Author's environment is python 3.6.3 in a Linux server which is now running Cent
  >>## 3.4 get performance of optimal model for ten fold cross validation
   
      python predict_analysis_more_kegg_tfs_average_whole_new_rand.py
-     `predict_analysis_more_kegg_tfs_average_whole_new_rand.py` collects results of the optimal model in each fold to present the final results.
+     
+   `predict_analysis_more_kegg_tfs_average_whole_new_rand.py` collects results of the optimal model in each fold to present the final results.
  
