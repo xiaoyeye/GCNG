@@ -16,7 +16,7 @@ from sklearn import metrics
 from scipy import interp
 current_path = os.path.abspath('.')
 # Parameters
-l2_reg = 5e-7  # Regularization rate for l2
+l2_reg = 1e-7  # Regularization rate for l2
 learning_rate = 1*1e-6  # Learning rate for SGD
 batch_size = 32  # Batch size
 epochs = 100 # Number of training epochs
