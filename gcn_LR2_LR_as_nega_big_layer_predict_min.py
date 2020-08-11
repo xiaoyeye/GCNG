@@ -86,7 +86,7 @@ for test_indel in range(1,11): ################## ten fold cross validation
 
     # Train model
     validation_data = (X_val, y_val)
-    model.load_weights(save_dir+'/weights.hdf5')
+    model.load_weights(save_dir+'/gcn_LR_1.h5')
     #history = model.fit(X_train,y_train,batch_size=batch_size,validation_data=validation_data,epochs=epochs,callbacks=callbacks)
 
     # Load best model
