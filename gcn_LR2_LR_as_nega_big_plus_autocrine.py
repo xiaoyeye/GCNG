@@ -27,7 +27,7 @@ es_patience = 50  # Patience fot early stopping
 import numpy as np
 from scipy import sparse as sp
 import pickle
-threshold = 100
+threshold = 140
 with open(current_path+'/seqfish_plus/whole_FOV_distance_I_crs_140', 'rb') as fp:
     adj = pickle.load( fp)
 
