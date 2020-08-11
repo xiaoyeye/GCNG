@@ -1,3 +1,4 @@
+# autocrine+ GCNG that uses both exocrine and autocrine gene interactions. For diagonal GCNG, just feed it with a zero matrix instead of adjacent matrix.
 from keras import Input, Model
 from keras.callbacks import EarlyStopping, ModelCheckpoint
 from keras.layers import Dense, Flatten
