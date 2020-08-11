@@ -28,6 +28,7 @@ Users should first set the path as the downloaded folder.
     python gcn_LR2_LR_as_nega_big.py
     
   `gcn_LR2_LR_as_nega_big.py` exocrine GNCG that uses normalized adjacent matrix to generate normalized laplacian matrix, and then uses laplacian matrix to train and test GCNG models in ten fold cross validation. 
+  
   (
   
     python gcn_LR2_LR_as_nega_big_plus_autocrine.py
