@@ -70,7 +70,10 @@ for threshold in [100]:#[100,140,180,210,220,260]:#range (210,211):#(100,400,40)
     distance_matrix_threshold_I_N_crs = sparse.csr_matrix(distance_matrix_threshold_I_N)
     with open(current_path+'/seqfish_plus/whole_FOV_distance_I_N_crs_'+str(threshold), 'wb') as fp:
         pickle.dump(distance_matrix_threshold_I_N_crs, fp)
-#        pickle.dump(distance_matrix_threshold_I_crs, fp)## do not normalize adjcent matrix
+    distance_matrix_threshold_I_N = np.float32(whole_distance_matrix_threshold_I) ## do not normalize adjcent matrix
+    distance_matrix_threshold_I_N_crs = sparse.csr_matrix(distance_matrix_threshold_I_N)
+    with open(current_path+'/seqfish_plus/whole_FOV_distance_I_N_crs_'+str(threshold), 'wb') as fp:
+        pickle.dump(distance_matrix_threshold_I_crs, fp)
 #
 # generate graph matrix where each cell only connect itself
 # import spektral
