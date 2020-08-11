@@ -1,3 +1,4 @@
+##exocrine GCNG with normalized graph matrix 
 from keras import Input, Model
 from keras.callbacks import EarlyStopping, ModelCheckpoint
 from keras.layers import Dense, Flatten
