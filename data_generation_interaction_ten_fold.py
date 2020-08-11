@@ -65,11 +65,12 @@ for threshold in [100]:#[100,140,180,210,220,260]:#range (210,211):#(100,400,40)
                                                                 distance_matrix_threshold_I_list[6])
     ############### get normalized sparse adjacent matrix
     distance_matrix_threshold_I_N = spektral.utils.normalized_adjacency(whole_distance_matrix_threshold_I, symmetric=True)
-    # distance_matrix_threshold_I_N = np.float32(distance_matrix_threshold_I_N) ## do not normalize adjcent matrix
+    # distance_matrix_threshold_I_N = np.float32(whole_distance_matrix_threshold_I) ## do not normalize adjcent matrix
     distance_matrix_threshold_I_N = np.float32(whole_distance_matrix_threshold_I)
     distance_matrix_threshold_I_N_crs = sparse.csr_matrix(distance_matrix_threshold_I_N)
     with open(current_path+'/seqfish_plus/whole_FOV_distance_I_N_crs_'+str(threshold), 'wb') as fp:
         pickle.dump(distance_matrix_threshold_I_N_crs, fp)
+#        pickle.dump(distance_matrix_threshold_I_crs, fp)## do not normalize adjcent matrix
 #
 # generate graph matrix where each cell only connect itself
 # import spektral
