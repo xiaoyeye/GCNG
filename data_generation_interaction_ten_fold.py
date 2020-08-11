@@ -38,7 +38,7 @@ import pickle
 import spektral
 import scipy.linalg
 distance_array = np.array(distance_list_list)
-for threshold in [100]:#[100,140,180,210,220,260]:#range (210,211):#(100,400,40):
+for threshold in [140]:#[100,140,180,210,220,260]:#range (210,211):#(100,400,40):
     num_big = np.where(distance_array<threshold)[0].shape[0]
     print (threshold,num_big,str(num_big/(913*2)))
     distance_matrix_threshold_I_list = []
