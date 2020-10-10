@@ -14,7 +14,7 @@ GCNG for extracellular gene relationship inference. (A) GCNG model using spatial
 >>## Users need to install python and ‘spektral’, ‘Keras’ and ‘Tensorflow’ modules, and  all ohther modules required by the code. We  recommend Anaconda to do this.
 Author's environment is python 3.6.3 in a Linux server which is now running Centos 6.5 as the underlying OS and Rocks 6.1.1 as the cluster management revision. 
 
-Please used the old version of spektral as "spektral"github suggests.
+Please used the old version of spektral as "spektral"github suggests : https://github.com/danielegrattarola/spektral#tensorflow-1-and-keras
 
 ># 3, Example for running
 Users should first set the path as the downloaded folder. 
