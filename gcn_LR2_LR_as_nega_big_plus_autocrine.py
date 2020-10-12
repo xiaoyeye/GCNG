@@ -5,7 +5,7 @@ from keras.layers import Dense, Flatten
 from keras.optimizers import Adam
 from keras.regularizers import l2
 
-from spektral.datasets import mnist
+#from spektral.datasets import mnist
 from spektral.layers import GraphConv
 from spektral.layers.ops import sp_matrix_to_sp_tensor
 from spektral.utils import normalized_laplacian
