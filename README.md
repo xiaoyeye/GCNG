@@ -1,7 +1,7 @@
 # GCNG
 using graph convolutional neural network and spaital transcriptomics data to infer cell-cell interactions
 # Title, GCNG: Graph convolutional networks for inferring cell-cell interactions
-# https://www.biorxiv.org/content/10.1101/2019.12.23.887133v1
+# https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02214-w
 ## date: Nov 1, 2019
 
 ># 1, GCNG overview
